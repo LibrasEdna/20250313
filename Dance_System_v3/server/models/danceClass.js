@@ -58,12 +58,12 @@ const newDanceClass = new DanceClass({
 
 
 });
-newDanceClass
-  .save()
-  .then((savedDoc) => {
-    console.log("儲存完畢, 資料是:");
-    console.log(savedDoc);
-  })
-  .catch((e) => {
-    console.log(e);
-  });
+// newDanceClass
+//   .save()
+//   .then((savedDoc) => {
+//     console.log("儲存完畢, 資料是:");
+//     console.log(savedDoc);
+//   })
+//   .catch((e) => {
+//     console.log(e);
+//   });
